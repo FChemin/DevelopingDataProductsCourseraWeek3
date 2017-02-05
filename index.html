@@ -804,7 +804,7 @@ str(EuStockMarkets)
   ..$ : chr [1:4] &quot;DAX&quot; &quot;SMI&quot; &quot;CAC&quot; &quot;FTSE&quot;
 </code></pre>
 
-<pre><code class="r">p &lt;- plot_ly(x = time(d), y = d[,3]) %&gt;% add_lines() %&gt;% 
+<pre><code class="r">p &lt;- plot_ly(x = time(EuStockMarkets), y = EuStockMarkets[,3]) %&gt;% add_lines() %&gt;% 
     rangeslider() %&gt;% 
     layout(title = &quot;CAC40 Closing Prices, 1991-1998&quot;, xaxis = list(title = &quot;Date&quot;), 
            yaxis = list(title = &quot;Price&quot;))
