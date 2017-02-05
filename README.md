@@ -10,6 +10,6 @@ The rubric contains the following two questions:
 
 * Is the web page a presentation and does it feature an interactive plot that appears to have been created with Plotly?
 
-**Example Submissionsless**
+**Example Submissions**
 
 Here's an extremely minimal passing example, but we hope your submission is much cooler!
